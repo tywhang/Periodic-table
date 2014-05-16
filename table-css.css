@@ -1,0 +1,118 @@
+* {
+	font-family: sans-serif;
+}
+
+#outline {
+	border: 1px solid black;
+	width: 836px;
+	height: 420px;
+}
+
+#header {
+	width: 836px;
+	height: 42px;
+}
+
+.sidebar, .col {
+	width: 42px;
+	height: 336px;
+	display: inline-block;
+	margin-right: -2px;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+.sidebar {
+	border: none;
+}
+
+	.sidebar h6 {
+		height: 42px;
+		width: 44px;
+		margin: 0;
+		text-align: center;
+	}
+
+	.col h6, .row h6 {
+		height: 42px;
+		width: 40px;
+		margin: 0;
+		text-align: center;
+	}
+
+	.col p, .row p {
+		border: 1px solid black;
+		height: 40px;
+		width: 40px;
+		margin: 0;
+		margin-bottom: 1px;
+		font-size: 10px;
+	}
+
+	.col span, .row span {
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		color: blue;
+	}
+
+.row {
+	margin: 0 0 1px 55px;
+	height: 42px;
+	width: 836px;
+}
+
+.row p {
+	background-color: green;
+	margin-left: -2px;
+	display: inline-block;
+	text-align: center;
+}
+
+.row h5 {
+	display: inline-block;
+	text-align: center;
+}
+
+.row h5:first-child {
+	margin-right: 10px;
+}
+
+ .col h5 {
+ 	display: block;
+ 	text-align: center;
+ }
+
+ .stars {
+ 	width: 16px;
+ }
+
+ .stars h5:first-child {
+ 	margin-top: 285px;
+ }
+
+.nineteen {
+	margin-top: 20px;
+	margin-left: 47px;
+}
+
+.one p, .two p {
+	background-color: purple;
+}
+
+.thirteen p, .fourteen p, .fifteen p, .sixteen p, .seventeen p, .eighteen p {
+	background-color: orange;
+}
+
+.two h6, .thirteen h6, .fourteen h6, .fifteen h6, .sixteen h6, .seventeen h6 {
+	margin-bottom: 43px;
+}
+
+.three h6, .four h6, .five h6, .six h6, .seven h6, .eight h6, .nine h6, .ten h6, .eleven h6, .twelve h6 {
+	margin-bottom: 129px;
+}
+
+.three p, .four p, .five p, .six p, .seven p, .eight p, .nine p, .ten p, .eleven p, .twelve p {
+	background-color: pink;
+}
